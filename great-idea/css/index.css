@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav {
+	
+	display: flex;
+	justify-content: space-around;
+  }
+  
+  nav a {
+	color: lightgray;
+	text-decoration: none;
+
+  }
+  .headerContainer {
+	border-bottom: 1px solid;
+  }
+   .title {
+	font-size: 95px;
+	width: 400px;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	
+	
+  }
+  
+  .button {
+	font-size: 15px;
+	background-color: white;
+	border: 1px solid black;
+	width: 100px;
+	text-align: center;
+  }
+	  
+  .topContentLeft {
+   
+	padding: 20px 0px 0px;
+	width: 40%;
+  }
+  
+  .topContentRight {
+	padding: 20px 0px 0px;
+	width: 40%;
+	
+  }
+  .topContentLeft.topContentRight{
+	
+  }
+  
+  .bottomContentLeft {
+	width: 25%;
+	margin: 10px 20px 10px 10px;
+	padding: 20px 0px 0px;
+	
+	
+  }
+  
+  .bottomMiddleContent {
+	width: 25%;
+	margin: 10px 20px 10px 10px;
+	padding: 20px 0px 0px;
+	
+  }
+  
+  .bottomRightContent {
+	width: 25%;
+	margin: 10px 20px 10px 10px;
+	padding: 20px 0px 0px;
+	
+  }
+  
+  .bottomContentLeft.bottomContentMiddle.bottomContentRight{
+	
+  }
+  
+  .address {
+	border-top: 1px solid;
+	padding: 20px 0px 0px;
+	
+  }
+  
+  address {
+  }
+  
+  footer {
+	text-align: center;
+  }
+  
+  .phoneNumber {
+	
+  }
+  
+  body {
+	
+  }
+  
+  .middleImg{
+	 
+	  
+  }
+  .middle-img {
+	 
+  }
+  
+  
