@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+		font-family: 'Titillium Web', sans-serif;
+		margin: 50px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -199,5 +200,122 @@ nav {
 	  margin: 20px;
   }
 	
-  
+	
+  .services-header-img{
+		width: 1300px;
+	}
+
+	.subTitle {
+		font-size: 25px;
+	}
+
+	.services {
+		margin-top: 50px;
+		margin-right: 50px;
+		margin-bottom: 50px;
+		padding-bottom: 50px;
+		border-bottom: 1px solid;
+
+	}
+
+	.leftTop {
+		border: 1px solid;
+		width: 500px;
+		padding: 10px;
+		background-color: lightgray;
+		margin-bottom: 20px;
+	
+	 
+	}
+
+	.rightTop {
+		border: 1px solid;
+		width: 500px;
+		padding: 10px;
+		background-color: lightgray;
+		margin-bottom: 20px;
+	}
+
+	.leftMiddle {
+		border: 1px solid;
+		width: 500px;
+		padding: 10px;
+		background-color: lightgray;
+		margin-bottom: 20px;
+	
+	}
+
+	.rightMiddle {
+		border: 1px solid;
+		width: 500px;
+		padding: 10px;
+		background-color: lightgray;
+		margin-bottom: 20px;
+
+	}
+
+	.bottomLeft {
+		border: 1px solid;
+		width: 500px;
+		padding: 10px;
+		background-color: lightgray;
+		margin-bottom: 20px;
+	
+
+	}
+
+	.bottomRight {
+		border: 1px solid;
+		width: 500px;
+		padding: 10px;
+		background-color: lightgray;
+		margin-bottom: 20px;
+
+	}
+
+	.middleContent {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		height: 75%;
+		margin-bottom: 50px;
+		padding-bottom: 50px;
+		border-bottom: 2px solid;
+		
+		
+	}
+
+	.bottomContent {
+		width: 45%;
+		margin-bottom: 20px;
+		
+	}
+
+	.bottomImage {
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: row;
+		
+
+	}
+
+	.bottomUl{
+		list-style-type: square;
+		line-height: 35px;
+		margin-left: 20px;
+
+	}
+
+	.bottomSection1 {
+		display: flex;
+		justify-content: space-between;
+		
+	}
+
+	.bottomContainer{
+		margin-top: 150px;
+		
+	}
+
+
   
