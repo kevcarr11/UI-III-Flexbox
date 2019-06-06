@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+		font-family: 'Titillium Web', sans-serif;
+		margin: 50px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,257 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+nav {
+	
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 100px;
+  }
+  
+  nav a {
+	color: lightgray;
+	text-decoration: none;
+
+  }
+  .headerContainer {
+	border-bottom: 1px solid;
+	height: 550px;
+	margin: auto;
+
+
+  }
+   .title {
+	font-size: 95px;
+	width: 400px;
+	height: 300px;
+	display: flex;
+	text-align: center;
+	flex-flow: row wrap;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	
+	
+
+   }  
+
+   .middleContainer {
+	   display: flex;
+	   justify-content: space-between;
+	   height: 300px;
+	  
+   }
+  
+
+  .middleImg {
+	  margin: auto;
+     
+
+  }
+  
+  .button {
+	font-size: 25px;
+	background-color: white;
+	border: 1px solid black;
+	width: 200px;
+	text-align: center;
+	margin-left: 100px;
+  }
+
+  .topSection {
+	  display: flex;
+	  justify-content: space-evenly;
+	  padding-bottom: 20px;
+  }
+	  
+  .topContentLeft {
+	padding: 20px 0px 0px;
+	width: 45%;
+	
+  }
+  .topContentRight {
+	  width: 45%;
+	  padding: 20px 0px 0px;
+  }
+  .fullPageImg {
+	display: flex;
+	justify-content: center;
+
+	 } 
+
+  .bottomSection {
+	  display: flex;
+	  justify-content: space-evenly;
+  }
+  
+  .bottomContentLeft {
+	width: 25%;
+	margin: 10px 20px 10px 10px;
+	padding: 20px 0px 0px;
+	display: inline-block;
+	
+	
+  }
+  
+  .bottomMiddleContent {
+	width: 25%;
+	margin: 10px 20px 10px 10px;
+	padding: 20px 0px 0px;
+	display: inline-block;
+	
+  }
+  
+  .bottomRightContent {
+	width: 25%;
+	margin: 10px 20px 10px 10px;
+	padding: 20px 0px 0px;
+	display: inline-block;
+	
+  }
+  
+  .mainContent {
+	  margin: 5px;
+
+
+  }
+	
+  
+  
+  .address {
+	border-top: 1px solid;
+	padding: 20px 0px 0px;
+	
+  }
+  
+  
+  footer {
+	text-align: center;
+  }
+  
+  .phoneNumber {
+	
+  }
+  
+  body {
+	  margin: 20px;
+  }
+	
+	
+  .services-header-img{
+		width: 1300px;
+	}
+
+	.subTitle {
+		font-size: 25px;
+	}
+
+	.services {
+		margin-top: 50px;
+		margin-right: 50px;
+		margin-bottom: 50px;
+		padding-bottom: 50px;
+		border-bottom: 1px solid;
+
+	}
+
+	.leftTop {
+		border: 1px solid;
+		width: 500px;
+		padding: 10px;
+		background-color: lightgray;
+		margin-bottom: 20px;
+	
+	 
+	}
+
+	.rightTop {
+		border: 1px solid;
+		width: 500px;
+		padding: 10px;
+		background-color: lightgray;
+		margin-bottom: 20px;
+	}
+
+	.leftMiddle {
+		border: 1px solid;
+		width: 500px;
+		padding: 10px;
+		background-color: lightgray;
+		margin-bottom: 20px;
+	
+	}
+
+	.rightMiddle {
+		border: 1px solid;
+		width: 500px;
+		padding: 10px;
+		background-color: lightgray;
+		margin-bottom: 20px;
+
+	}
+
+	.bottomLeft {
+		border: 1px solid;
+		width: 500px;
+		padding: 10px;
+		background-color: lightgray;
+		margin-bottom: 20px;
+	
+
+	}
+
+	.bottomRight {
+		border: 1px solid;
+		width: 500px;
+		padding: 10px;
+		background-color: lightgray;
+		margin-bottom: 20px;
+
+	}
+
+	.middleContent {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		height: 75%;
+		margin-bottom: 50px;
+		padding-bottom: 50px;
+		border-bottom: 2px solid;
+		
+		
+	}
+
+	.bottomContent {
+		width: 45%;
+		margin-bottom: 20px;
+		
+	}
+
+	.bottomImage {
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: row;
+		
+
+	}
+
+	.bottomUl{
+		list-style-type: square;
+		line-height: 35px;
+		margin-left: 20px;
+
+	}
+
+	.bottomSection1 {
+		display: flex;
+		justify-content: space-between;
+		
+	}
+
+	.bottomContainer{
+		margin-top: 150px;
+		
+	}
+
+
+  
